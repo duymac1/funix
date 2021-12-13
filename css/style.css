@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+body{
+    background-image: url(../img/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.sm-font {
+    font-size: 80%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* .navbar-toggler-icon {
+    background-color: #fff;
+} */
+
+.navbar-brand {
+    color: #F4B350;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-nav a{
+    color:#fff;
+    font-size: 22px;
+}
+
+
+/* index */
+.carousel-inner img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.intro-box,
+.card-body,
+.food-item{
+    background-color: #F4B350;
+}
+
+.color-light{
+    color: #fff;
+    text-shadow: 5px 5px 15px #000;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.place-card {
+    display: flex;
+}
+
+.food-item{
+    width: 100%;
+}
+footer p{
+    font-size: 80%;
+}
+/* about */
+.content-mg{
+    margin-top: 84px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content-right .card {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.content-right ul {
+    padding-right: 48px;
+
+}
+.img-sub{
+    font-size: 60%;
+}
+
+.truncate-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.block-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.sm-body{
+    display: flex;
+    flex-direction: column;
+    padding: 0.93rem 1rem !important;
+    height: 100%;
+}
+.text-addr{
+    margin-top: auto;
+}
+
+
+@media (max-width: 500px) {
+    html, body{
+        font-size: 20px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    /* .content-right li{
+        font-size: large;
+    } */
+    .truncate-content{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+}
+
+/* @media (min-width: 768px) {
+    .navbar .container {
+        margin: 0 2% !important;
+    }
+
+} */
